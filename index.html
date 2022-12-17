@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE ht<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Media Queries and Graphics</h1>
+  <!--
+ <svg width="500px" height="500px">
+   <rect width="100px" height="200px" style="fill:green;" x="50px" y="100px">
+     
+   </rect>
+
+   <circle cx="200px" cy="150px" r="40px">
+     
+   </circle>
+<!--
+   <svg width="500" height="500">
+  <rect id="rec" x="300" y="100" width="300" height="100" style="fill:lime"> 
+    <animate attributeName="x" attributeType="XML" begin="0s" dur="6s" fill="freeze" from="300" to="0" /> 
+    <animate attributeName="y" attributeType="XML" begin="0s" dur="6s" fill="freeze" from="100" to="0" /> 
+    <animate attributeName="width" attributeType="XML" begin="0s" dur="6s" fill="freeze" from="300" to="800" /> 
+    <animate attributeName="height" attributeType="XML" begin="0s" dur="6s" fill="freeze" from="100" to="300" /> 
+    <animate attributeName="fill" attributeType="CSS" from="lime" to="red" begin="2s" dur="4s" fill="freeze" />
+  </rect>
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+      
+ </svg>
+  -->
+
+  <canvas id="my-first-canvas" height="200px" width="100px" style="border: 2px red solid;"> 
+  
+  </canvas>
+  
+  <script src="script.js">
+    
+  </script>
+
+  <script>
+  console.log("javascript code");
+     var canvas = document.getElementById("my-first-canvas"); // variable that attaches to your html document
+   var context = canvas.getContext("2d"); // getContext decides the “type” of canvas
+   // x and y coordinates always start at the top left of an element or the page
+   context.moveTo(0, 0);  // x, y coordinates where the line starts
+   context.lineTo(200,100); //x, y coordinates where the line ends
+   context.stroke(); // function that creates the line, won’t work without this code
+    
+  </script>
+
+ 
+  
+</body>
+
+</html>

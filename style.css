@@ -1,0 +1,22 @@
+svg{
+  background-color:yellow;
+}
+
+circle{
+  fill:blue;
+  stroke:red;
+  stroke-width: 5px;
+}
+
+body{
+  background: rosybrown url("https://bit.ly/3h2VSOf") 50% 0% no-repeat ;
+  height: 100vh; /* viewport height */
+  
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: yellowgreen;
+    color: white;
+  }
+}
